@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns:TXLife xmlns:ns="http://ACORD.org/Standards/Life/2" Version="2.36.00">
+  <ns:UserAuthRequest>
+    <ns:UserLoginName>pravin</ns:UserLoginName>
+  </ns:UserAuthRequest>
+  <ns:TXLifeRequest>
+    <ns:TransRefGUID>ACATSasdfgP600</ns:TransRefGUID>
+    <ns:TransType tc="103">New Business Submission for a Policy</ns:TransType>
+    <ns:TransSubType tc="10302">New Business Submission - Annuity</ns:TransSubType>
+    <ns:TransExeDate>2018-05-15</ns:TransExeDate>
+    <ns:TransExeTime>19:27:14</ns:TransExeTime>
+    <ns:OLifE>
+      <ns:Holding id="Holding_ProposedPolicy">
+        <ns:HoldingTypeCode tc="2">Policy</ns:HoldingTypeCode>
+        <ns:Policy>
+          <ns:ProductType tc="10">Deferred Annuity</ns:ProductType>
+          <ns:ProductCode>005</ns:ProductCode>
+          <ns:CarrierCode>04</ns:CarrierCode>
+          <ns:PlanName>PruSecure Select</ns:PlanName>
+          <ns:Annuity>
+            <ns:QualPlanType tc="5">Traditional IRA</ns:QualPlanType>
+            <ns:InitDepositDate>2018-05-15</ns:InitDepositDate>
+            <ns:Rider>
+              <ns:RiderTypeCode tc="207">Surrender Charges</ns:RiderTypeCode>
+            </ns:Rider>
+          </ns:Annuity>
+          <ns:AnnuityProduct>
+            <ns:FeatureProduct>
+              <ns:FeatureCode>7</ns:FeatureCode>
+              <ns:FeatureName>7 Year CDSC Option</ns:FeatureName>
+            </ns:FeatureProduct>
+          </ns:AnnuityProduct>
+          <ns:ApplicationInfo>
+            <ns:HOAssignedAppNumber>ACATSasdfgP600</ns:HOAssignedAppNumber>
+            <ns:ApplicationJurisdiction tc="35">NJ</ns:ApplicationJurisdiction>
+            <ns:SignedDate>2018-05-15</ns:SignedDate>
+            <ns:SignatureInfo>
+              <ns:SignatureDate>2018-05-15</ns:SignatureDate>
+            </ns:SignatureInfo>
+            <ns:ReplacementInd tc="1">True</ns:ReplacementInd>
+          </ns:ApplicationInfo>
+          <ns:KeyedValue>
+            <ns:KeyName>ALTERNATE_ID</ns:KeyName>
+            <ns:KeyValue>COMP67_01</ns:KeyValue>
+          </ns:KeyedValue>
+          <ns:OLifEExtension>
+            <ns:CommissionOption>Option A</ns:CommissionOption>
+            <ns:InitDepositAmt>50000</ns:InitDepositAmt>
+            <ns:GroupName/>
+            <ns:GroupNumber/>
+            <ns:GroupID/>
+          </ns:OLifEExtension>
+        </ns:Policy>
+        <ns:Investment>
+          <ns:SubAccount id="Fund5">
+            <ns:ProductCode>07-01</ns:ProductCode>
+            <ns:ProductFullName>MXEA 1 Year</ns:ProductFullName>
+            <ns:AllocPercent>100</ns:AllocPercent>
+          </ns:SubAccount>
+        </ns:Investment>
+      </ns:Holding>
+      <ns:Holding id="Holding_Banking">
+        <ns:HoldingTypeCode tc="7">Banking</ns:HoldingTypeCode>
+        <ns:Banking>
+          <ns:BankAcctType tc="2">Checking Account</ns:BankAcctType>
+          <ns:AccountNumber>123456789024</ns:AccountNumber>
+          <ns:RoutingNum>111093715</ns:RoutingNum>
+          <ns:AcctHolderName>Meera</ns:AcctHolderName>
+          <ns:BankName>Prosperity</ns:BankName>
+        </ns:Banking>
+      </ns:Holding>
+      <ns:Party id="Party_Owner">
+        <ns:PartyTypeCode tc="2">Organization</ns:PartyTypeCode>
+        <ns:FullName>kurla Custodian</ns:FullName>
+        <ns:GovtID>459632787</ns:GovtID>
+        <ns:GovtIDTC tc="2">Taxpayer Identification Number</ns:GovtIDTC>
+        <ns:GovtIDCertificationDate>2008-01-01</ns:GovtIDCertificationDate>
+        <ns:ResidenceState tc="35">NJ</ns:ResidenceState>
+        <ns:ResidenceCountry tc="1">USA</ns:ResidenceCountry>
+        <ns:Risk>
+          <ns:ExistingInsuranceInd tc="1">True</ns:ExistingInsuranceInd>
+        </ns:Risk>
+        <ns:Organization>
+          <ns:OrgForm tc="0">Company</ns:OrgForm>
+          <ns:OLifEExtension>
+            <ns:CompanyType>Custodian</ns:CompanyType>
+          </ns:OLifEExtension>
+        </ns:Organization>
+        <ns:Address>
+          <ns:AddressTypeCode tc="1">Residence</ns:AddressTypeCode>
+          <ns:Line1>10 Cinder Street</ns:Line1>
+          <ns:Line2>aaaa</ns:Line2>
+          <ns:Line3>bbbb</ns:Line3>
+          <ns:City>Morris Plains</ns:City>
+          <ns:AddressStateTC tc="35">NJ</ns:AddressStateTC>
+          <ns:Zip>07950</ns:Zip>
+          <ns:AddressCountryTC tc="1">USA</ns:AddressCountryTC>
+          <ns:PrefAddr tc="1">true</ns:PrefAddr>
+          <ns:PostalDropCode/>
+        </ns:Address>
+        <ns:Phone>
+          <ns:PhoneTypeCode tc="0">Contact Phone</ns:PhoneTypeCode>
+          <ns:PhoneValue>5557878788</ns:PhoneValue>
+          <ns:AreaCode>555</ns:AreaCode>
+          <ns:DialNumber>7878788</ns:DialNumber>
+          <ns:InvalidInd tc="0">false</ns:InvalidInd>
+          <ns:SolicitationInd tc="0">false</ns:SolicitationInd>
+        </ns:Phone>
+        <ns:OLifEExtension>
+          <ns:OwnershipType>Custodian</ns:OwnershipType>
+          <ns:BeneficiaryContactName>Ankur</ns:BeneficiaryContactName>
+          <ns:RelationshipToOwner>Other</ns:RelationshipToOwner>
+          <ns:Authorization>
+            <ns:Transfers tc="1">True</ns:Transfers>
+            <ns:Withdrawals tc="1">True</ns:Withdrawals>
+            <ns:Inquiry tc="1">True</ns:Inquiry>
+            <ns:ContractMaintainance tc="1">True</ns:ContractMaintainance>
+          </ns:Authorization>
+        </ns:OLifEExtension>
+      </ns:Party>
+      <ns:Party id="Party_PrimaryAnnuitant">
+        <ns:PartyTypeCode tc="1">Person</ns:PartyTypeCode>
+        <ns:FullName>Ratan Raja Romero</ns:FullName>
+        <ns:GovtID>847103250</ns:GovtID>
+        <ns:GovtIDTC tc="1">Social Security Number US</ns:GovtIDTC>
+        <ns:GovtIDCertificationDate>2008-01-01</ns:GovtIDCertificationDate>
+        <ns:ResidenceState tc="35">NJ</ns:ResidenceState>
+        <ns:ResidenceCountry tc="1">USA</ns:ResidenceCountry>
+        <ns:Person>
+          <ns:FirstName>Ratan</ns:FirstName>
+          <ns:MiddleName>Raja</ns:MiddleName>
+          <ns:LastName>Romero</ns:LastName>
+          <ns:Prefix>Mr.</ns:Prefix>
+          <ns:MarStat tc="1">Married</ns:MarStat>
+          <ns:Gender tc="1">Male</ns:Gender>
+          <ns:BirthDate>1960-01-01</ns:BirthDate>
+          <ns:Citizenship tc="1">USA</ns:Citizenship>
+          <ns:EstGrossAnnualOtherIncome>96000</ns:EstGrossAnnualOtherIncome>
+          <ns:NonResidentAlienInd tc="0">False</ns:NonResidentAlienInd>
+          <ns:OLifEExtension>
+            <ns:eDeliveryOptOutOptionIndicator tc="0">false</ns:eDeliveryOptOutOptionIndicator>
+            <ns:BDValidationDate>2016-01-01</ns:BDValidationDate>
+          </ns:OLifEExtension>
+        </ns:Person>
+        <ns:Address>
+          <ns:AddressTypeCode tc="1">Residence</ns:AddressTypeCode>
+          <ns:Line1>100 Main Street</ns:Line1>
+          <ns:Line2>Phoenix</ns:Line2>
+          <ns:Line3>asadd</ns:Line3>
+          <ns:City>Morris Plains</ns:City>
+          <ns:AddressStateTC tc="35">NJ</ns:AddressStateTC>
+          <ns:Zip>07950</ns:Zip>
+          <ns:AddressCountryTC tc="1">USA</ns:AddressCountryTC>
+          <ns:PrefAddr tc="1">true</ns:PrefAddr>
+          <ns:PostalDropCode/>
+        </ns:Address>
+        <ns:Address>
+          <ns:AddressTypeCode tc="1">Residence</ns:AddressTypeCode>
+          <ns:Line1>100 Main Street2</ns:Line1>
+          <ns:Line2>Phoenix</ns:Line2>
+          <ns:Line3>Gabbar</ns:Line3>
+          <ns:City>Edison</ns:City>
+          <ns:AddressStateTC tc="35">NJ</ns:AddressStateTC>
+          <ns:Zip>08837</ns:Zip>
+          <ns:AddressCountryTC tc="1">USA</ns:AddressCountryTC>
+          <ns:PrefAddr tc="0">False</ns:PrefAddr>
+          <ns:PostalDropCode/>
+        </ns:Address>
+        <ns:Phone>
+          <ns:PhoneTypeCode tc="1">Home</ns:PhoneTypeCode>
+          <ns:PhoneValue>8918568962</ns:PhoneValue>
+          <ns:AreaCode>891</ns:AreaCode>
+          <ns:DialNumber>8568962</ns:DialNumber>
+          <ns:InvalidInd tc="0">false</ns:InvalidInd>
+          <ns:SolicitationInd tc="0">false</ns:SolicitationInd>
+        </ns:Phone>
+        <ns:Phone>
+          <ns:PhoneTypeCode tc="2">Business</ns:PhoneTypeCode>
+          <ns:PhoneValue>8918568963</ns:PhoneValue>
+          <ns:AreaCode>891</ns:AreaCode>
+          <ns:DialNumber>8568963</ns:DialNumber>
+          <ns:InvalidInd tc="0">false</ns:InvalidInd>
+          <ns:SolicitationInd tc="0">false</ns:SolicitationInd>
+        </ns:Phone>
+        <ns:Phone>
+          <ns:PhoneTypeCode tc="12">Mobile</ns:PhoneTypeCode>
+          <ns:PhoneValue>8918568964</ns:PhoneValue>
+          <ns:AreaCode>891</ns:AreaCode>
+          <ns:DialNumber>8568964</ns:DialNumber>
+          <ns:InvalidInd tc="0">false</ns:InvalidInd>
+          <ns:SolicitationInd tc="0">false</ns:SolicitationInd>
+          <ns:PhoneCountryTC tc="1">USA</ns:PhoneCountryTC>
+        </ns:Phone>
+        <ns:EMailAddress>
+          <ns:EMailType tc="5">Primary</ns:EMailType>
+          <ns:AddrLine>abc@gmail.com</ns:AddrLine>
+          <ns:UndeliverableInd tc="1">true</ns:UndeliverableInd>
+          <ns:SolicitationInd tc="1">true</ns:SolicitationInd>
+        </ns:EMailAddress>
+        <ns:EMailAddress>
+          <ns:EMailType tc="6">Secondary</ns:EMailType>
+          <ns:AddrLine>xyz@gmail.com</ns:AddrLine>
+          <ns:UndeliverableInd tc="1">true</ns:UndeliverableInd>
+          <ns:SolicitationInd tc="1">true</ns:SolicitationInd>
+        </ns:EMailAddress>
+        <ns:OLifEExtension>
+          <ns:RelationshipToOwner>Friend</ns:RelationshipToOwner>
+          <ns:Authorization>
+            <ns:Transfers tc="1">True</ns:Transfers>
+            <ns:Withdrawals tc="1">True</ns:Withdrawals>
+            <ns:Inquiry tc="1">True</ns:Inquiry>
+            <ns:ContractMaintainance tc="1">True</ns:ContractMaintainance>
+          </ns:Authorization>
+        </ns:OLifEExtension>
+      </ns:Party>
+      <ns:Party id="Party_Agent">
+        <ns:PartyTypeCode tc="1">Person</ns:PartyTypeCode>
+        <ns:GovtID>114675323</ns:GovtID>
+        <ns:Producer>
+          <ns:NIPRNumber>D832P9</ns:NIPRNumber>
+        </ns:Producer>
+        <ns:OLifEExtension>
+          <ns:ValidationMessage>
+            <ns:Code>PL-R validation output code</ns:Code>
+            <ns:Severity>PL-R validation output Severity</ns:Severity>
+            <ns:Description>PL-R validation output Description</ns:Description>
+          </ns:ValidationMessage>
+        </ns:OLifEExtension>
+      </ns:Party>
+      <ns:Party id="Party_Servicing_Agent">
+        <ns:PartyTypeCode tc="1">Person</ns:PartyTypeCode>
+        <ns:GovtID>734675323</ns:GovtID>
+        <ns:Producer>
+          <ns:NIPRNumber>D332P9</ns:NIPRNumber>
+        </ns:Producer>
+        <ns:OLifEExtension>
+          <ns:ValidationMessage>
+            <ns:Code>PL-R validation output code</ns:Code>
+            <ns:Severity>PL-R validation output Severity</ns:Severity>
+            <ns:Description>PL-R validation output Description</ns:Description>
+          </ns:ValidationMessage>
+        </ns:OLifEExtension>
+      </ns:Party>
+      <ns:Relation id="Party_PI" OriginatingObjectID="Holding_ProposedPolicy" RelatedObjectID="Party_PrimaryAnnuitant">
+        <ns:OriginatingObjectType tc="4">Holding</ns:OriginatingObjectType>
+        <ns:RelatedObjectType tc="6">Party</ns:RelatedObjectType>
+        <ns:RelationRoleCode tc="35">Annuitant</ns:RelationRoleCode>
+        <ns:InterestPercent>100</ns:InterestPercent>
+      </ns:Relation>
+      <ns:Relation id="Party_Owner_Rel" OriginatingObjectID="Holding_ProposedPolicy" RelatedObjectID="Party_Owner">
+        <ns:OriginatingObjectType tc="4">Holding</ns:OriginatingObjectType>
+        <ns:RelatedObjectType tc="6">Party</ns:RelatedObjectType>
+        <ns:RelationRoleCode tc="8">Owner</ns:RelationRoleCode>
+        <ns:InterestPercent>100</ns:InterestPercent>
+      </ns:Relation>
+      <ns:Relation id="R_Agent_to_Holding" OriginatingObjectID="Holding_ProposedPolicy" RelatedObjectID="Party_Agent">
+        <ns:OriginatingObjectType tc="4">Holding</ns:OriginatingObjectType>
+        <ns:RelatedObjectType tc="6">Party</ns:RelatedObjectType>
+        <ns:RelationRoleCode tc="11">Agent</ns:RelationRoleCode>
+        <ns:InterestPercent>40</ns:InterestPercent>
+      </ns:Relation>
+      <ns:Relation id="Relation_Application_Servicing_Agent_1" OriginatingObjectID="Holding_ProposedPolicy" RelatedObjectID="Party_Servicing_Agent">
+        <ns:OriginatingObjectType tc="4">Holding</ns:OriginatingObjectType>
+        <ns:RelatedObjectType tc="6">Party</ns:RelatedObjectType>
+        <ns:RelationRoleCode tc="38">Primary Servicing Agent</ns:RelationRoleCode>
+        <ns:InterestPercent>60</ns:InterestPercent>
+      </ns:Relation>
+    </ns:OLifE>
+  </ns:TXLifeRequest>
+</ns:TXLife>

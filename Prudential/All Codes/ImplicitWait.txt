@@ -1,0 +1,9 @@
+The implicit wait will tell to the web driver to wait for certain amount of time before it throws a "No Such Element Exception". 
+The default setting is 0. Once we set the time, web driver will wait for that time before throwing an exception.
+
+Syntax:
+driver.manage().timeouts().implicitlyWait(TimeOut, TimeUnit.SECONDS);
+
+Code:
+driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+

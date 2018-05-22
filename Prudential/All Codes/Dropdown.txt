@@ -1,0 +1,49 @@
+Package:
+
+org.openqa.selenium.support.ui.Select
+
+
+Example:
+
+        Select drpCountry = new Select(driver.findElement(By.name("country")));
+		drpCountry.selectByVisibleText("ANTARCTICA");
+		
+		Select fruits = new Select(driver.findElement(By.id("fruits")));
+		fruits.selectByVisibleText("Banana");
+		fruits.selectByIndex(1);
+
+		
+		
+		
+
+		
+
+1. selectByVisibleText()/ deselectByVisibleText()
+
+Selects/deselects the option that displays the text matching the parameter.
+Parameter: The exactly displayed text of a particular option
+
+
+2. selectByValue() / deselectByValue() 
+
+Selects/deselects the option whose "value" attribute matches the specified parameter.
+Parameter: value of the "value" attribute
+Remember that not all drop-down options have the same text and "value", 
+
+3. selectByIndex() / deselectByIndex()
+
+Selects/deselects the option at the given index.
+Parameter: the index of the option to be selected.
+
+4. isMultiple()
+
+
+Returns TRUE if the drop-down element allows multiple selections at a time; FALSE if otherwise.
+No parameters needed
+
+
+5. deselectAll() 
+
+Clears all selected entries. This is only valid when the drop-down element supports multiple selections.
+No parameters needed
+

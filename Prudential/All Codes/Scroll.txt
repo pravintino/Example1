@@ -1,0 +1,38 @@
+Scroll down:
+
+
+WebDriver driver = new FirefoxDriver();
+JavascriptExecutor jse = (JavascriptExecutor)driver;
+jse.executeScript("window.scrollBy(0,250)", "");
+
+OR
+
+jse.executeScript("scroll(0, 250);");
+
+
+
+Scroll up:
+
+jse.executeScript("window.scrollBy(0,-250)", "");
+OR,
+jse.executeScript("scroll(0, -250);");
+
+
+
+Scrolling to Bottom of a page:
+
+JavascriptExecutor js = ((JavascriptExecutor) driver);
+js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+
+
+If you want to scroll for a element then below piece of code will work for you.
+
+
+je.executeScript("arguments[0].scrollIntoView(true);",element);
+
+
+By Using ROBOT CLASS
+
+Robot robot = new Robot();
+robot.keyPress(KeyEvent.VK_PAGE_DOWN);
+robot.keyRelease(KeyEvent.VK_PAGE_DOWN);

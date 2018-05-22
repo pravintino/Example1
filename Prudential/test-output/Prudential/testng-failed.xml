@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Prudential]" guice-stage="DEVELOPMENT">
+  <test name="App Entry1(failed)">
+    <parameter name="InputFIlePath" value="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry.xlsm"/>
+    <classes>
+      <class name="pracModules.AppEntryGIFT">
+        <methods>
+          <include name="CLTApplicaionOwnerInformationGIFT"/>
+          <include name="AccountWelcome" invocation-numbers="0"/>
+          <include name="ApplicationDefingQuestionnaire"/>
+          <include name="ApplicationPrimarybeneficiaryInformation"/>
+          <include name="ApplicationPremiumInformation"/>
+          <include name="beforeMethod5"/>
+          <include name="NewBusinessApplicationSummary"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- pracModules.AppEntryGIFT -->
+    </classes>
+  </test> <!-- App Entry1(failed) -->
+</suite> <!-- Failed suite [Prudential] -->

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Prudential">
+
+  <test name="App Entry1">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="App Entry2">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry2.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="App Entry3">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry3.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="App Entry4">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry4.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="App Entry5">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry5.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+    <test name="App Entry6">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry6.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="App Entry7">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry7.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="App Entry8">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry8.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="App Entry9">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry9.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="App Entry10">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry10.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+
+  
+</suite> <!-- Suite -->

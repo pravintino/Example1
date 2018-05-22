@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Prudential">
+  <test name="App Entry1">
+  
+  <parameter name ="InputFIlePath" value ="C:\\Users\\pravin.xavier.nadar\\eclipse-workspace\\Prudential\\DOCS\\App Entry.xlsm" />
+    <classes>
+      <class name="pracModules.AppEntryGIFT"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

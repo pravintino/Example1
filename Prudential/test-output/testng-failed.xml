@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [NB Submit]" guice-stage="DEVELOPMENT">
+  <test name="NB Submit Case 1(failed)">
+    <parameter name="XML" value="NBSubmit1"/>
+    <classes>
+      <class name="modules.JMS">
+        <methods>
+          <include name="jmsQueueTest"/>
+          <include name="openBrowser"/>
+          <include name="developmentTools"/>
+          <include name="closeBrowser"/>
+          <include name="setNBSubmitFile"/>
+        </methods>
+      </class> <!-- modules.JMS -->
+    </classes>
+  </test> <!-- NB Submit Case 1(failed) -->
+</suite> <!-- Failed suite [NB Submit] -->

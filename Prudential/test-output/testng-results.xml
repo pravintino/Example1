@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-05-17T11:58:43Z" name="NB Submit" finished-at="2018-05-17T11:59:54Z" duration-ms="70698">
+    <groups>
+    </groups>
+    <test started-at="2018-05-17T11:58:43Z" name="NB Submit Case 1" finished-at="2018-05-17T11:59:54Z" duration-ms="70698">
+      <class name="modules.JMS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:modules.JMS@4fb3ee4e]" started-at="2018-05-17T17:28:43Z" name="openBrowser" finished-at="2018-05-17T17:28:51Z" duration-ms="7546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="setNBSubmitFile(java.lang.String)[pri:0, instance:modules.JMS@4fb3ee4e]" started-at="2018-05-17T17:28:51Z" name="setNBSubmitFile" finished-at="2018-05-17T17:28:51Z" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NBSubmit1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setNBSubmitFile -->
+        <test-method signature="developmentTools(java.lang.String)[pri:0, instance:modules.JMS@4fb3ee4e]" started-at="2018-05-17T17:28:51Z" name="developmentTools" finished-at="2018-05-17T17:29:05Z" duration-ms="14403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NBSubmit1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- developmentTools -->
+        <test-method signature="jmsQueueTest(java.lang.String)[pri:0, instance:modules.JMS@4fb3ee4e]" started-at="2018-05-17T17:29:05Z" name="jmsQueueTest" finished-at="2018-05-17T17:29:53Z" duration-ms="47929" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NBSubmit1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jmsQueueTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:modules.JMS@4fb3ee4e]" started-at="2018-05-17T17:29:53Z" name="closeBrowser" finished-at="2018-05-17T17:29:54Z" duration-ms="752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- modules.JMS -->
+    </test> <!-- NB Submit Case 1 -->
+  </suite> <!-- NB Submit -->
+</testng-results>
